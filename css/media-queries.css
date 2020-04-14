@@ -160,9 +160,10 @@
 	#nav-wrap:target > ul#nav	{
 	   display: block;
       padding: 30px 20px 48px 20px;
-      background: #1f2024;
+      background: black;
       margin: 0 30px;
       clear: both;
+      opacity: 1;
    }
 
    ul#nav li {
