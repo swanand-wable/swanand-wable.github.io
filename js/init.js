@@ -5,7 +5,16 @@
 -----------------------------------------------------------------------------------*/
 
  jQuery(document).ready(function($) {
-
+   var style1 = [
+      'color: black',
+      'text-shadow: 2px 2px purple', 
+      'background-color: white', 
+      'font-size: 3em',
+      'border: 1px solid purple',
+      'padding: 20px',
+      'font-family: fantasy'
+   ];
+   console.log('%cWelcome To My Website!', style1.join(';'));
 /*----------------------------------------------------*/
 /* FitText Settings
 ------------------------------------------------------ */
