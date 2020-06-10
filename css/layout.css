@@ -339,83 +339,83 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.angular, .php, .drupal, .javascript {
-  	width: 90%;
-  	-moz-animation: angular 2s ease;
-  	-webkit-animation: angular 2s ease;
-}
-.node {
+.autocad, .php, .drupal, .javascript {
   	width: 80%;
-  	-moz-animation: node 2s ease;
-  	-webkit-animation: node 2s ease;
+  	-moz-animation: autocad 2s ease;
+  	-webkit-animation: autocad 2s ease;
+}
+.lean {
+  	width: 80%;
+  	-moz-animation: lean 2s ease;
+  	-webkit-animation: lean 2s ease;
 }
 .d3 {
   	width: 70%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
+  	-moz-animation: mini 2s ease;
+  	-webkit-animation: mini 2s ease;
 }
-.css {
-  	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
-}
-.html5 {
+.catia {
   	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+  	-moz-animation: catia 2s ease;
+  	-webkit-animation: catia 2s ease;
 }
-.jquery {
+.micro {
+  	width: 90%;
+  	-moz-animation: micro 2s ease;
+  	-webkit-animation: micro 2s ease;
+}
+.jmp {
   	width: 70%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+  	-moz-animation: jmp 2s ease;
+  	-webkit-animation: jmp 2s ease;
 }
 
-@-moz-keyframes angular {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-moz-keyframes node {
+@-moz-keyframes autocad {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-moz-keyframes wordpress {
+@-moz-keyframes lean {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-moz-keyframes mini {
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
-@-moz-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-moz-keyframes html5 {
+@-moz-keyframes catia {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-moz-keyframes jquery {
+@-moz-keyframes micro {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+@-moz-keyframes jmp {
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
 
-@-webkit-keyframes angular {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-webkit-keyframes node {
+@-webkit-keyframes autocad {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-webkit-keyframes wordpress {
+@-webkit-keyframes lean {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-webkit-keyframes mini {
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
-@-webkit-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-webkit-keyframes html5 {
+@-webkit-keyframes catia {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-webkit-keyframes jquery {
+@-webkit-keyframes micro {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+@-webkit-keyframes jmp {
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
