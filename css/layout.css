@@ -340,22 +340,22 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .autocad, .php, .drupal, .javascript {
-  	width: 80%;
+  	width: 70%;
   	-moz-animation: autocad 2s ease;
   	-webkit-animation: autocad 2s ease;
 }
 .lean {
-  	width: 80%;
+  	width: 90%;
   	-moz-animation: lean 2s ease;
   	-webkit-animation: lean 2s ease;
 }
-.d3 {
+.mini {
   	width: 70%;
   	-moz-animation: mini 2s ease;
   	-webkit-animation: mini 2s ease;
 }
 .catia {
-  	width: 80%;
+  	width: 70%;
   	-moz-animation: catia 2s ease;
   	-webkit-animation: catia 2s ease;
 }
@@ -372,11 +372,11 @@ ul#nav li.current a { color: #F06000; }
 
 @-moz-keyframes autocad {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 70%;  }
 }
 @-moz-keyframes lean {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 90%;  }
 }
 @-moz-keyframes mini {
   0%   { width: 0px;  }
@@ -384,7 +384,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes catia {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 70%;  }
 }
 @-moz-keyframes micro {
   0%   { width: 0px;  }
