@@ -397,11 +397,11 @@ ul#nav li.current a { color: #F06000; }
 
 @-webkit-keyframes autocad {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 70%;  }
 }
 @-webkit-keyframes lean {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 90%;  }
 }
 @-webkit-keyframes mini {
   0%   { width: 0px;  }
@@ -409,7 +409,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes catia {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 70%;  }
 }
 @-webkit-keyframes micro {
   0%   { width: 0px;  }
