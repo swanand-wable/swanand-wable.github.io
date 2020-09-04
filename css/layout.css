@@ -299,9 +299,9 @@ ul#nav li.current a { color: #F06000; }
 /*----------------------------------------------*/
 
 .bars {
-	width: 48%;
+	width: 46%;
    float: left;
-   margin-left: 1%;
+   margin-left: 2%;
 	padding: 0;
 	text-align: left;
 }
