@@ -272,7 +272,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 #education .header-col { padding-top: 9px; }
-#education .main-col { padding-right: 10%; }
+#education .main-col { /* padding-right: 10%; */ }
 
 .education, .work {
    margin-bottom: 48px;
@@ -317,13 +317,13 @@ ul#nav li.current a { color: #F06000; }
   	border-radius: 3px;
 }
 .bars li em {
-	font: 15px 'opensans-bold', sans-serif;
+   font: 15px 'opensans-bold', sans-serif;
    color: #313131;
-	text-transform: uppercase;
-   letter-spacing: 2px;
-	font-weight: normal;
+   text-transform: uppercase;
+   /* letter-spacing: 2px; */
+   font-weight: normal;
    position: relative;
-	top: -36px;
+   top: -36px;
 }
 .bar-expand {
    position: absolute;
