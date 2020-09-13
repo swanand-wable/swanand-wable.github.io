@@ -339,11 +339,12 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.autocad, .php, .drupal, .javascript {
-  	width: 70%;
-  	-moz-animation: autocad 2s ease;
-  	-webkit-animation: autocad 2s ease;
+.ci, {
+  	width: 85%;
+  	-moz-animation: ci 2s ease;
+  	-webkit-animation: ci 2s ease;
 }
+
 .lean {
   	width: 90%;
   	-moz-animation: lean 2s ease;
@@ -354,10 +355,17 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: mini 2s ease;
   	-webkit-animation: mini 2s ease;
 }
-.catia {
-  	width: 70%;
-  	-moz-animation: catia 2s ease;
-  	-webkit-animation: catia 2s ease;
+
+.autocad, {
+  	width: 75%;
+  	-moz-animation: autocad 2s ease;
+  	-webkit-animation: autocad 2s ease;
+}
+
+.gmp {
+  	width: 80%;
+  	-moz-animation: gmp 2s ease;
+  	-webkit-animation: gmp 2s ease;
 }
 .micro {
   	width: 90%;
@@ -370,9 +378,15 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: jmp 2s ease;
 }
 
-@-moz-keyframes autocad {
+.catia {
+  	width: 70%;
+  	-moz-animation: catia 2s ease;
+  	-webkit-animation: catia 2s ease;
+}
+
+@-moz-keyframes ci {
   0%   { width: 0px;  }
-  100% { width: 70%;  }
+  100% { width: 85%;  }
 }
 @-moz-keyframes lean {
   0%   { width: 0px;  }
@@ -382,9 +396,14 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
-@-moz-keyframes catia {
+@-moz-keyframes autocad {
   0%   { width: 0px;  }
-  100% { width: 70%;  }
+  100% { width: 75%;  }
+}
+
+@-moz-keyframes gmp {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
 }
 @-moz-keyframes micro {
   0%   { width: 0px;  }
@@ -394,10 +413,14 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
-
-@-webkit-keyframes autocad {
+@-moz-keyframes catia {
   0%   { width: 0px;  }
   100% { width: 70%;  }
+}
+
+@-webkit-keyframes ci {
+  0%   { width: 0px;  }
+  100% { width: 85%;  }
 }
 @-webkit-keyframes lean {
   0%   { width: 0px;  }
@@ -407,15 +430,23 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
-@-webkit-keyframes catia {
+@-webkit-keyframes autocad {
   0%   { width: 0px;  }
-  100% { width: 70%;  }
+  100% { width: 75%;  }
+}
+@-webkit-keyframes gmp {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
 }
 @-webkit-keyframes micro {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
 @-webkit-keyframes jmp {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-webkit-keyframes catia {
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
